@@ -295,7 +295,8 @@ function getSumToN(n) {
 function getSumOfDigits(num) {
   return num
     .toString()
-    .split('').reduce((sum, current) => sum + +current, 0);
+    .split('')
+    .reduce((sum, current) => sum + +current, 0);
 }
 
 /**
